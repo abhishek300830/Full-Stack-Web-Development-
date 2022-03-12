@@ -1,0 +1,80 @@
+:root {
+  --speed: 5; /*css vaiable */
+}
+body {
+  background-color: black;
+}
+.container {
+  justify-content: center;
+  display: flex;
+}
+#h1MainHeading {
+  font-family: monospace;
+  color: aliceblue;
+  font-size: 40px;
+  text-align: center;
+}
+.machine {
+  background-color: orange;
+  /* height: 300px;
+  width: 900px; */
+  height: fit-content;
+  width: fit-content;
+  border: dashed black 5px;
+  margin: 50px;
+  display: flex;
+}
+.slot {
+  height: 250px;
+  width: 250px;
+  margin: 30px;
+  background-color: beige;
+  border: 2px solid darkblue;
+  text-align: center;
+  font-size: 80pt;
+  line-height: 250px; /* take emoji to center */
+  overflow: hidden;
+}
+.value {
+  animation-name: slotspin;
+  animation-duration: calc(1s / var(--speed)); /* css variable used here */
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+@keyframes slotspin {
+  0% {
+    transform: translateY(0px);
+  }
+  33% {
+    transform: translateY(200px);
+  }
+  66% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+#inpSpeed {
+  font-size: 30px;
+  margin-left: 70px;
+}
+.divBtn {
+  text-align: center;
+}
+#btnSpin {
+  width: 200px;
+  font-size: 40px;
+  font-family: monospace;
+  border-radius: 20px;
+}
+#btnSpin:hover {
+  background-color: green;
+  color: white;
+}
+.divRules {
+  color: aliceblue;
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+}

@@ -1,0 +1,30 @@
+.container {
+  background-color: aqua;
+}
+.item {
+  display: inline-flex;
+  background-color: orange;
+  border: solid black 1px;
+  width: 370px;
+  height: 100px;
+}
+@media (max-width: 1530px) {
+  .item {
+    background-color: orange;
+  }
+}
+@media (max-width: 1516px) {
+  .item {
+    background-color: red;
+  }
+}
+@media (max-width: 1155px) {
+  .item {
+    background-color: green;
+  }
+}
+@media (max-width: 773px) {
+  .item {
+    background-color: yellowgreen;
+  }
+}

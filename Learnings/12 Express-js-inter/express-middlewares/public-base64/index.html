@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #heading {
+        text-align: center;
+        font-family: monospace;
+      }
+      textarea {
+        background-color: rgb(31, 26, 26);
+        color: rgb(0, 255, 13);
+        font-size: 20px;
+        border-radius: 30px;
+        text-indent: 30px;
+        border: 5px rgb(0, 255, 0) solid;
+        padding: 10px;
+      }
+      .container {
+        text-align: center;
+      }
+      button {
+        font-size: 30px;
+        font-family: monospace;
+      }
+    </style>
+    <script async defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="heading">Base 64 Encoder Decoder and Evaluate</h1>
+      <textarea
+        name="textarea"
+        id="textarea"
+        cols="70"
+        rows="10"
+        placeholder="Write any JavaScript code Here"
+      ></textarea>
+      <br />
+      <br />
+      <button id="btnEncode">Encode</button>
+      <br /><br />
+      <form action="/eval" method="get">
+        <textarea
+          readonly
+          name="formtextarea"
+          id="formtextarea"
+          cols="70"
+          rows="5"
+        ></textarea>
+        <br />
+        <button id="btnEncrypt" type="button">Encrypt</button>
+        <br />
+        <br />
+        <button id="formbtn" type="submit">Evaluate</button>
+      </form>
+    </div>
+  </body>
+</html>

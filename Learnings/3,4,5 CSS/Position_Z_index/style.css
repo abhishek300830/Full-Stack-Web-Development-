@@ -1,0 +1,28 @@
+.container {
+  width: 500px;
+  height: auto;
+  background-color: aqua;
+  margin: 50px;
+}
+.container > .item {
+  width: 70px;
+  height: 70px;
+  background-color: green;
+  margin: 10px;
+  color: black;
+  font-size: 40px;
+}
+.container > .one {
+  position: fixed;
+  z-index: 2;
+}
+
+/* z index concept */
+.container > .two {
+  position: relative;
+  z-index: 5;
+}
+.container > .three {
+  position: relative;
+  z-index: 1;
+}

@@ -1,0 +1,74 @@
+html {
+  padding: 20px;
+  min-height: 593px;
+  background-color: burlywood;
+  border: 50px solid white;
+  border-style: groove;
+}
+
+#divInpText {
+  text-align: center;
+}
+#inpText {
+  font-family: monospace;
+  font-size: 40px;
+  height: 60px;
+  width: 500px;
+  border-radius: 30px;
+  background-color: bisque;
+  color: black;
+  margin-bottom: 20px;
+  border: 5px solid white;
+}
+#btnAdd {
+  font-size: 21px;
+  font-family: monospace;
+  width: 80px;
+  height: 60px;
+  background-color: rgb(51, 160, 51);
+  color: aliceblue;
+  border-radius: 30px;
+}
+#btnAdd:hover {
+  background-color: rgb(0, 141, 0);
+}
+button {
+  border: 2px solid aliceblue;
+  width: 50px;
+  height: 50px;
+  color: black;
+  border-radius: 30px;
+  font-size: 25px;
+  color: red;
+  font-family: monospace;
+  font-weight: bolder;
+}
+button:hover {
+  background-color: rgb(252, 195, 90);
+}
+span {
+  font-family: monospace;
+}
+#divList {
+  /*background-color: aliceblue;*/
+  border-radius: 30px;
+  margin: 100px;
+}
+li {
+  font-size: 35px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: aliceblue;
+}
+#btnClear {
+  font-size: 20px;
+  font-family: monospace;
+  width: 80px;
+  height: 60px;
+  background-color: rgb(253, 73, 73);
+  color: aliceblue;
+  border-radius: 30px;
+}
+#btnClear:hover {
+  background-color: red;
+}

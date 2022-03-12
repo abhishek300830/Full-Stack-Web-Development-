@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(39, 39, 39);
+}
+#gamebox{
+    border: 2px solid black;
+    background-color:aqua;
+    align-items: center;
+}
+.heading{
+    color: aliceblue;
+    text-align: center;
+}
+.divCanvas{
+     text-align: center; 
+}
+.info{
+   color: aliceblue;
+   text-align: center;
+   font-size: large;
+    
+}

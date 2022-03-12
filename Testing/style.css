@@ -1,0 +1,7 @@
+.slot {
+  width: 250px;
+  height: 250px;
+  background-color: rebeccapurple;
+  margin: 20px;
+  display: flex;
+}

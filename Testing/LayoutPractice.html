@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *{
+          box-sizing: border-box;
+        }
+        .header{
+            background-color: black;
+            color: wheat;
+            font-size: 6vw;
+            text-align: center;
+            margin: 20px;
+            padding: 30px;
+            border-radius: 100px;
+        }
+        .left{
+            background-color: rgb(219, 176, 97);
+            float: left;
+            margin: 20px;
+            padding: 20px;
+            padding-bottom: 170px;
+            width: 20%;
+            border-radius: 30px;
+
+        }
+        .menu a{
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+
+        }
+        .center{
+            background-color: aqua;
+            padding: 20px;
+            margin: 20px;
+            width: 50%;
+            float:left;
+            padding-bottom: 170px;
+            border-radius: 30px;
+        }
+        .right{
+            background-color:red;
+           float: left;
+           width: 20%;
+           padding: 20px;
+           margin: 20px;
+           padding-bottom: 170px;
+           border-radius: 30px;
+            
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <header>Welcome to WD</header>
+    </div>
+    <div style="overflow: auto;"> <!--main div-->
+        <div class="left">
+            <div class="menu">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+            </div>
+        </div>
+        <div class="center">
+            <h2 style="text-align: center;">Web Page Layout</h2>
+            <p>It takes considerable time to design a website's layout with great look and feel. Now-a-days, all modern websites are using CSS and JavaScript based framework to come up with responsive and dynamic websites but you can create a good layout using simple HTML tables or division tags in combination with other formatting tags.</p>
+        </div>
+        <div class="right">
+            <h2>About</h2>
+            <p>Here we Were Going to note Down all info about to project. and you will find all Contact Information Here</p>
+        </div>
+    </div>
+
+    <div style="background-color: black; color: wheat; text-align: center; margin: 20px; padding: 10px; border-radius: 100px;">
+        <h2>© Copyright Abhishek Gurjar</h2>
+    </div>
+</body>
+</html>

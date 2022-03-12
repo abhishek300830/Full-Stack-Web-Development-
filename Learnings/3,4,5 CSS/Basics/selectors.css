@@ -1,0 +1,17 @@
+div{
+    background-color: black;
+    color: white;
+    font-size: 40pt;
+
+
+}
+p{
+    background-color: yellowgreen;
+    font-size: 40pt;
+
+}
+p:hover{
+    background-color: blue;
+    color: white;
+    
+}
