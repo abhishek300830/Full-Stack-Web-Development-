@@ -14,6 +14,6 @@ let wait = function (timeout) {
 /* let Num = parseInt(inpNum.textContent) */
 btnWait.onclick = function () {
     wait(inpNum.value)
-        .then(() => { console.log(`waited for  seconds`) })
+        .then(() => { console.log(`waited for ${inpNum.value} Milli seconds`) })
         .catch((err) => { console.error(err) })
 }

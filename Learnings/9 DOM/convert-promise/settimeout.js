@@ -9,7 +9,7 @@ let wait = function (timeout, done) {
         done(new Error('TimeOut must be a Number'))
     }
     else {
-        setTimeout(() => { done(null) }, timeout)
+        setTimeout(() => { done() }, timeout)
     }
 }
 

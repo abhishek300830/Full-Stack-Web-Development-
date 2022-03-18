@@ -12,7 +12,6 @@ btnPrint.onclick = function () {
     if no is divisible by 3 and 5 both then print fizzbuzz in place of Number
 
     */
-
     for (let i = 1; i <= inpNum.value; i++) {
         let li = document.createElement('li')
         let print = ''
