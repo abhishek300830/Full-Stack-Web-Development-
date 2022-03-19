@@ -5,6 +5,7 @@ function download(url) {
         } else {
             setTimeout(() => {                          //fake 3 sec timeout
                 let fileName = url.split('/').pop()
+                console.log(fileName)
                 resolve(fileName)
             }, 3000);
         }
