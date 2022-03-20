@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }))
 //using hbs
 app.set('view engine', 'hbs')
 //creating a array
-let tasks = ['sample task'
+let tasks = ['sample task hbs'
 ]
 
 //creating path and afterwords passing array  to taskLists

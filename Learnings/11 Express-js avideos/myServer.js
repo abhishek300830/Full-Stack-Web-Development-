@@ -17,10 +17,13 @@ app.get('/greet', (req, res) => {       //http://localhost:4444/greet?person=abh
 
 app.post('/greet', (req, res) => {      //http://localhost:4444/greet?person=abhishek
     let person = 'Guest'
+    let phone = '0'
     console.log(req.body)               //post recive data in body of request
-    if (req.body.person)
+    if (req.body.person) {
         person = req.body.person
-    res.send('Good Evening ' + person)
+        phone = req.body.phone
+    }
+    res.send('Good Evening ' + person + 'Your Phone Number is :' + phone)
 })
 
 //path variable 
