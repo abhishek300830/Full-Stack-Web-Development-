@@ -1,0 +1,5 @@
+stateless function will always asks for password while we refresh the page
+but statefull functions will take only ones
+
+Node js is stateless
+state is saved in db
