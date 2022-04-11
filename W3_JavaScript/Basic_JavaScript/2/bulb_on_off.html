@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img id="img" src="pic_bulboff.gif" alt="" style="margin: 10px" />
+    <br />
+    <button id="btnOn">Turn On</button>
+    &nbsp;
+    <button
+      id="btnOff"
+      onclick="document.getElementById('img').src = 'pic_bulboff.gif';"
+    >
+      Turn Off
+    </button>
+    <script>
+      document.getElementById("btnOn").onclick = function () {
+        document.getElementById("img").src = "pic_bulbon.gif";
+      };
+    </script>
+  </body>
+</html>
