@@ -1,0 +1,7 @@
+Use heroku like platform
+
+change port using process.env.PORT
+
+connect with github
+
+to use db use heroku addons
